@@ -1,0 +1,19 @@
+<appwidget-provider
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="UnusedAttribute"
+
+    android:minWidth="80dp"
+    android:minHeight="80dp"
+    android:targetCellWidth="3"
+    android:targetCellHeight="3"
+    android:resizeMode="horizontal|vertical"
+
+
+    android:updatePeriodMillis="1000"
+    android:description="@string/app_name"
+    android:previewLayout="@layout/widget_preview"
+    android:widgetCategory="home_screen"
+    android:widgetFeatures="reconfigurable|configuration_optional">
+    <!-- I'm not including an initialLayout because that creates a shows an error page for a split second, makes it easier to see the bug -->
+</appwidget-provider>
